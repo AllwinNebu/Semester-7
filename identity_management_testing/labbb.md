@@ -37,4 +37,19 @@ EXP ZAP :
          * open new tab on Firefox and https://sjcetpalai.ac.in/ 
          * open ZAP and in the left side you will see site option in that You see https://sjcetpalai.ac.in/ (This passive scan).
          * In ZAP, Right click on https://sjcetpalai.ac.in/ -> Attack -> Active Scan/ Spider. 
+
+EXP Recon-ng:
+             * open termainal and paste the commands
+             * recon-ng
+             * workspaces set msn
+             * workspaces create msn
+             * modules load recon/domains-hosts/brute_hosts , if this command shows invalid module name error the type : marketplace update
+               marketplace install recon/domains-hosts/brute_hosts , and after installing again type : modules load recon/domains-hosts/brute_hosts
+             * options set SOURCE msn.com
+             * run (this command will run the module)
+             * show hosts ( shows the collected data)
+             * copy edit (export the collecetd data)
+
+
+
  
